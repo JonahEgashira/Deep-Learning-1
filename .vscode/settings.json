@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/Users/jonahegashira/Desktop/Deep-Learning/venv/bin/python",
+    "code-runner.executorMap": {
+        "python": "/Users/jonahegashira/Desktop/Deep-Learning/venv/bin/python"
+    },
+    "python.linting.enabled": true
+}
