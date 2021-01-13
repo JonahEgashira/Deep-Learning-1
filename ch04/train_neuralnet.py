@@ -24,7 +24,7 @@ for i in range(iters_num):
     #grad = network.numerical_gradient(x_batch, t_batch)
     grad = network.gradient(x_batch, t_batch)
 
-    for key in ('W1', 'b1', 'W2', 'b2'):
+    for key in ('Wch1', 'b1', 'W2', 'b2'):
         network.params[key] -= learning_rate * grad[key]
     
     #学習経過の記録
